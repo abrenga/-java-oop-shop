@@ -17,7 +17,7 @@ public class Main {
 		float val = Float.parseFloat(prezzoConIva);
 		
 		
-		long codiceProdotto = Prodotto.generaCodiceProdotto();
+		String codiceProdotto = Prodotto.generaCodiceProdotto();
 		
 		Prodotto prodotto = new Prodotto(codiceProdotto, nome, descrizione, val);
 		
